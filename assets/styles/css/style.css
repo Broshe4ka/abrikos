@@ -96,3 +96,13 @@ body{
   background: #bbbbbb;
   transform: rotateY(360deg);
 }
+.footer{
+  background: #E04C4C;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+}
+
+.main{
+  
+}
