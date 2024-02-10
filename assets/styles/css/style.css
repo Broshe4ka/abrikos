@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kelly+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+img{
+  display: block;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background: #E3E3E3;
+}
+
+.wrapper{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  padding: 0 15px;
+}
+
+
+.header__logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: fit-content;
+}
+.header__img{
+
+}
+.header__title{
+  font-family: 'Kelly Slab', sans-serif;
+  font-weight: 400;
+}
+
+.header-bot{
+  width: 100%;
+  background: #E04C4C;
+  padding: 12px 0;
+}
+
+.header-bot__body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links{
+  display: flex;
+  gap: 46px;
+}
+
+.header__link{
+  padding: 8px 20px;
+
+  border-radius: 30px;
+  border: 2px solid #000;
+
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.356);
+
+  background: #E3E3E3;
+  color: #E04C4C;
+
+  transition: .3s ease;
+}
+
+.header__link:hover{
+  background: #bbbbbb;
+  transform: rotateY(360deg);
+}
