@@ -36,9 +36,7 @@ body{
 .container{
   max-width: 1200px;
   width: 100%;
-
   margin: 0 auto;
-
   padding: 0 15px;
 }
 
@@ -96,13 +94,25 @@ body{
   background: #bbbbbb;
   transform: rotateY(360deg);
 }
+
 .footer{
   background: #E04C4C;
   display: flex;
-  font-style: italic;
+  gap: 32px;
   justify-content: center;
+  font-style: italic;
 }
 
 .main{
-  
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.goods{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: fit-content;
+  border: 2px solid #000;
 }
