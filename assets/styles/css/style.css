@@ -159,12 +159,25 @@ body{
 }
 
 .product-card__text{
-
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.356);
+  background: #E3E3E3;
+  color: #E04C4C;
 }
 
 .product-card__button{
+  font-size: 18px;
+  padding: 6px;
   display: flex;
+  border: 2px solid #000;
   align-self: flex-end;
+  color: #E3E3E3;
+  background: #E04C4C;
+  border-radius: 30px;
+  -webkit-text-stroke: 1px #000;
+  
 }
 
 @media (width < 1200px) {
